@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'poppins';
+}
+.header{
+	height: 100px;
+	width:100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 8%;
+	background-color: #fff;
+	box-shadow: 0 0 60px #000 #ffb1b1a1;
+}
+ul li{
+	display: inline-block;
+	margin: 0 8px;
+}
+ul li{
+	color: #1c1c1c;
+	transition: 6s;
+}
+ul li a:hover{
+	color: #4d6c8e;
+}
+.header .fa-bars{
+	font-size: 1.3rem;
+	padding: 10px;
+	border: 2px solid #000;
+	display: none;
+	color: #ff7f7f;
+	transition: 6s;
+}
+.header .fa-bars{
+	background-color: #ff7f7f;
+	color: #fff;
+}
+.Login{
+	background: transparent;
+	border: none;
+	border-left: 0.5px,solid #999;
+	height: 100px;
+	padding: 8px 10%;
+	font-size: 0.9rem;
+	transition: 6s;
+}
+Login:hover{
+	color: #4d6c8e
+	}
+	.hero{
+		min-height: 100wh;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		padding: 0 8%;
+		align-items: center;
+	}
+	.hero.element{
+		position: absolute;
+		height: 180px;
+		width: 80px;
+		top: 40%;
+		left: 20px;
+	}
+	.hero.image{
+		width: 100px;
+		height: 580px;
+	}
+	.hero.image.img{
+		height: 100px;
+		width: 100px;
+	}
+	.hero.content{
+		width: 50%;
+		margin-left: 20px;
+		display: flex;
+	}
+	.hero.content.h4{
+		font-weight: 300;
+		letter-spacing: 2px;
+	}
+	.hero.content.h1{
+		font-size: 3rem;
+		letter-spacing: 1px;
+		line-height: 3.3rem;
+		color: red;
+		font-weight: 300;
+	}
+	.hero.content h1 span{
+		font-weight: 600;
+	}
+	.hero.content p{
+		color: pink;
+		letter-spacing: 0.5px;
+		margin-bottom: 10px;
+	}
+	button{
+		padding: 8px 18px;
+		width: 150px;
+		background: pink;
+		border: none;
+		font-size: 1.3rem;
+		letter-spacing: 1px;
+		color: lightpink;
+		transition: .6s;
+	}
+	button:hover{
+		background-color: green;
+		border-color: black;
+		
+	}
+
+@media (max width: 1100px){
+	.header .fa-bars{
+		display: black;
+	}
+	ul li{
+		position: absolute;
+		top: 100%;
+		left: 0;
+		eidth: 100%;
+	}
+	ul li{
+		display: block;
+		margin: 18px,0;
+	}
+	ul li a{
+		padding: 10px,0;
+	}
+	.Login{
+
+	}
+}
+
+
